@@ -7,3 +7,36 @@
 
 // Bootstrap
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+#policy-list {
+  margin-top: 2rem;
+}
+
+.policy-item {
+  font-size:  2rem;
+  clear: both;
+  display: block;
+  position: relative;
+  padding: 1rem;
+}
+
+.policy-item:nth-child(odd) {
+  background-color: lighten(#000, 96%);
+}
+
+.policy-prefix {
+  display: block;
+  font-weight: 700;
+  float: left;
+  margin-right: 2rem;
+  min-width: 5rem;
+}
+
+.policy-name {
+  display: block;
+}
+
+.matches {
+  padding: 1rem 0;
+}

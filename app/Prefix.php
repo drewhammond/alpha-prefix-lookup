@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class Prefix extends Model
 {
-    //
+	public $incrementing = false;
 }

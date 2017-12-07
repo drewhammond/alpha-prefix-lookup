@@ -12,3 +12,5 @@
 */
 
 Route::get('/', 'SearchController@index');
+Route::get('/prefixes', 'SearchController@prefixes');
+Route::get('/test', 'SearchController@process');
