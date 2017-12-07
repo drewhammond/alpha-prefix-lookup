@@ -1,5 +1,7 @@
 let mix = require('laravel-mix');
 
+mix.browserSync('alphaprefix.dev');
+
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management
