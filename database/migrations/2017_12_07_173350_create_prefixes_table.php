@@ -17,7 +17,6 @@ class CreatePrefixesTable extends Migration
             $table->string('id', 3)->unique();
             $table->primary('id');
             $table->string('policy_name');
-            $table->timestamps();
         });
     }
 
