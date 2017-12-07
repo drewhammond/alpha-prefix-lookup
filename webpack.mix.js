@@ -15,3 +15,8 @@ mix.browserSync('alphaprefix.dev');
 
 mix.js('resources/assets/js/app.js', 'public/js')
    .sass('resources/assets/sass/app.scss', 'public/css');
+
+if (mix.inProduction()) {
+    mix.options({purifyCss: true});
+    mix.version();
+}
